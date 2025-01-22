@@ -1,0 +1,31 @@
+#!/bin/bash
+
+# Create index.html from template
+cp template.html index.html
+
+# Initialize the gallery div in the HTML
+GALLERY_START='<div class="gallery">'
+GALLERY_END='</div>'
+GALLERY_CONTENT=""
+
+# Process each jpg file
+for img in ../christmasfreudjpgs/*.jpg; do
+    filename=$(basename "$img")
+    echo "Converting $filename..."
+    
+    # Generate ASCII art
+    ASCII_ART=$(jp2a --width=80 "$img")
+    
+    # Create HTML entry for this image
+    ENTRY="<div class='ascii-art-container'>
+        <div class='image-title'>$filename</div>
+        <pre class='ascii-art'>$ASCII_ART</pre>
+    </div>"
+    
+    GALLERY_CONTENT="$GALLERY_CONTENT$ENTRY"
+done
+
+# Insert all gallery content into the HTML
+sed -i.bak "s|$GALLERY_START|$GALLERY_START$GALLERY_CONTENT|" index.html
+
+echo "Conversion complete! Check index.html for the results."
