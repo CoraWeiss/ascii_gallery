@@ -1,0 +1,21 @@
+# Create the HTML structure and add your ASCII art files into it
+echo '<!DOCTYPE html>
+<html>
+<head>
+    <title>ASCII Gallery</title>
+    <style>
+        body { background: #1a1a1a; color: #33ff33; font-family: monospace; }
+        pre { background: #000; padding: 20px; margin: 20px; }
+    </style>
+</head>
+<body>' > index.html
+
+# Add each ASCII file to the HTML
+for f in *_ascii.txt; do
+    echo "<h2>$(basename "$f" _ascii.txt)</h2><pre>" >> index.html
+    cat "$f" >> index.html
+    echo "</pre>" >> index.html
+done
+
+# Close the HTML
+echo '</body></html>' >> index.html
