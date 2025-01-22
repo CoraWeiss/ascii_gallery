@@ -1,0 +1,50 @@
+OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO00000000000KKKKKKKKKKKKKKKKKKKKKKKKKKKKK00000
+OOO000000000000000000000000000OOOOkkOOOOOOkxxxxkkkOOOOOOkkkkkxxxxxxddoooollO0000
+OO0Oldloolllc::ccll,,';do;;:;;;;;;;:clloooodddddddooddoooloolccccllcldol:;;k0000
+OO0x,o::c;';;'.;ccc:cclddddddddddddolllcc:::;,''..,oxdloolllccccloo:lOkd:;;k0000
+OOOx'ocllloddxddollc::cdxc,,,','.............,.....oxdolllodxxkO00Oclkkdc;;x00OO
+OOOd.l,'.'........'....xx,,'..:;,.':;,;....:';;;...oxxkO0000000000Oclxxdl;;x00OO
+OOOd.l......';'...:lc'.xx,....:l;c;lo:l'. ':;,,'...odOOO0OOOOOOOO0Ocoxxdl;;d0OOO
+OOOd.lc;:;,',c....lcd;.xx','.'ol:lcdxod;. ,'',..........'cxkkkO0000coxddo;,o0OOO
+OOOd.ll:l;,,::....::o;.dx',...l:;;:llc:'. ''................:dOOOOOcdxddd:'oOOOO
+kOOd.o,.;'...'......'..oxc:;::ccllllooodl::...........','.....,xOOkcdxxxxc.lOOOO
+kkOk'oc;;:;;;:ccc::::;;ddc::::;;;;;;;;:lo:;c:................. .:Okldxxxkc.lOOOO
+kkkO,:. ',...  ........cl      ..  .. ,olcc:,....'.  ....''.......ocodxdoc.cOOOO
+kkkx;c. ccclo.';c::,...cl.,;::.''. ,'.cddxxolc................ ..  coddol;.lOOOO
+kkkOcc' ::oll..........cl,o,'.'cc:.c:,cxxxkxxxol:'.   ........  .. cllodd'.oOOOO
+kkkk::, 'c;ll.'cc::;:::ld.lc;..:dd.oo;cxxxxkxxxxol:,.. ...;ol:c. ..;oldxd..lOOOO
+kkkOxc:.......,;;;;;;;;ox..;...''' ',,,dxxkkkkkkkxddo;..',l,;',.  .,oldxl'.cOOOO
+kkkkxol,'',,;;::ccclllodxddddoooooooocllokkkkkxddddddoooo:,:,:.....,olxxc'.:OOOO
+kkkkOdc ....,;,'.......cx....':xkxl;,.',clxl;,',:lddddoddl'';.......:lxx:''cOOOO
+kkkkOdc.:;,'lc;.'......co.,:,oxxdc;;'....odlcoollolodxxdo;,..,......':cl;,,cOOOO
+kkkxxxc.',.'c,.loodl:;,:o.c;dxxoc:l:;;'..ddllllllllodxdd;'',:lol;........,cd0OOO
+kkkkOko:::::::;;,,;:::;ld;:ckxoccllllc:'....;:cclllldoc,',:llolodc;,''.'..cx0OOO
+kkkxddl........'',,;::coxodxkxc::lllllc:;,....'clolcc;;,,;,:lllldooc,,;:,'cd0OOO
+kkkkOOd....,.',.:...,,',d,cloxlc';lld,;lol:'...',,',,''';,;lc;odddollc'cl,;d0OOO
+kkkxddd.'..;.,:,l...;:::occ'.dlc::lccooxool,..'''''''..',,:llllxddoolo:.;ool0OOO
+Okkkkxd'.. ;.,l,o...,colol,  :l;:cllodddool'...''''',''',';cl;cooocldol:.';l0OOO
+Okkxdxx;......'.:.,,:olcl:. ..:l:,;,,:lloc.  .......''..'.;;',ccllcddddo.,;cOOOO
+OOko'...',;;::cclooc.:;,...    .,col;;,'.  .,;:,.............'col::ldodo:.,lOOkk
+OOko.'','.    .;dcc;'.;cc;..'.           .:ldko:............';;oc:',cdool.'cOOkk
+OOOo'c;','...  ;ol:,.lc...;:coc'    .... 'lldkll....'......'.,cccc;;,,lo:,.;kkkk
+OOOd,cc:';'..  'dd;,,o. .,.,;looc...     .lodkll. ..........:ooooo:,.'lc:,..kkkk
+OOOo.':cllc,.. .od:.,x.,d:cc..':coxoc:;,..,ooool  .........:oolllc,,'..oo,..xkkk
+OOOd,..;:c,.    .ddc'ococ:'''.  .'cdxxooodl:loo,  ...... .:oc::.,::,,:lodc.'kkkk
+OOOxoo:.....     'cc...,:;:;cdo:...':loooddoool   ....   .ll:,;;,;c,..:loc..xkkk
+OOOkkxoo,      .....  .cllccdxdlddc...;clodoc'       ..'''cc;,::..,,,;cloc..xkkk
+OOkkkkOoll. .;lolo:'. .;;:llkxdlcloxo;..''..    ... ,,:cc;;:;,;'...,:lool' ,xkkk
+OOkkkxdxdll;;loocllo:'. .,:odddollllll;';c..... ';::;.,coc;cc;','.',:loo' .,xkkk
+OOkkkkxdddloo0k0dool:c:.     ....',,::,.od;'clol;, .;c;;:oc;:c:,,..',:l.. .;xOkk
+Okkkkkkkdddodxdckloc;cl;  .....   ..  .;xl,.cxdodo;..cdl'co,'',cllclooc.  .,oOkO
+kkkxkkkkkdddooxlcolcllll  '''.  .cllc::;c'. 'cdddl:..:dl:;l:;'',lc:',;.  .,:xOOO
+kkkxkxxxxkxxoocc;;l:c:;.   ..  .cocooolooolc...,,;. .lol:;;;cc:cl;. .,...:llxOOO
+kkkxxkdoxxxxoo,               .:lllxcclxocllc   ..';lol;;;':l:l:'   ':',ldook0OO
+kkkkkOkOkkkxdo;                 ..,llccdollcc     ,,';::llloo;..  .;,:,,'colx0OO
+kkkkOlclkxxxdo;.   .              .lll:oddlc.    ...  ';c::;.. .   ,:lllooc.:OOO
+kkkkOl;,,,cldl:.   ...  .          coo::ddlc     . .  .... . ..;,'.  ,;:;. .;OOO
+kkkkOkc:cclldc:          ..        :coc;dxlc.    . .   ..  ';:cclol:'..   ..;OOO
+kkxxkOOOOkko:,.    .. ..      .    ,:lc;xxcc.    . .      .',;:ccoxxc'..... ;kOO
+kkxxkkkkxxd,. ..   ..  .           .;ccloo::.    . . ...';:lolccloc;.,;.  ..,OOO
+kxxxkkxxdo;.      .           . .   ;:coolc;. .',.';:c;lodddkol:,. .;c:.....,OOO
+kkxxxxdollc;,;;,,;;;;;;;;;;;;;;;;;;;:loddolc;;;lc:llddlddddlc;;;;;,;:ol;;;,;oOOO
+kkkkkkkkkxxxxxkkkkkkkkkkkkkkOOOOOOOOOOOOOOOOkkkkkkkOOOOOOOOOOOOOOOOOOOOOOOOOOOOO

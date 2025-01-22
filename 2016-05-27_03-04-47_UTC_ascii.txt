@@ -1,0 +1,50 @@
+   :xkkOO000KKKKKKKKKXXXX:             ...;NNNNNXl;',l;c;;:l;:ddxXWWWN'.....NWWK
+   c0000000KKKKKKKKKXXXXX:             ...,NNNKlok0xK0ldKl;xX:loxldWWN......WWWK
+   c000000KKKKKKKKKKXXXXX;             ...,Xxc'dkO...','...';.'c;:cOWK.....'WWWO
+   cO0000KKKKKKKKKKKXXXXX,              ..:;x;':;c...:okxl'.......l:NO.....'WWWo
+   ,x0000KKKKKKKKKKXXXXXX'              ..c,k,.....cXWWWWWNK:.....'oWd.....,WWWl
+   .x0000KKKKKKKKKKXXXXXX.              ..lKoc;...dNWWWWWWWWWc....kWWl.....;WWW:
+   .d000KKKKKKKKKKXXXXXXX.               .lNNNN'.cWNXNWWWWWWWl..,kWWW:.....cWWW'
+   .d000KKKKKKKKKKXXXXXXK.               .lNNNNc;'kdxdxONkxxdl'0kWWWW;.....dWWX.
+   .d000KKKKKKKKKKKXXXXXK.               .lNNNNo0c0Odd0xxOddOO:oNWWWW'.....kWW0.
+    l000KKKKKKKKKKKXXXXXK                .lNNNNXolWWWWXXKWWWNl0XWWWWN......KWWx.
+    l000KKKKKKKKKKKXXXXXK.                cNNWWW0llXNNkOONK0o;0WWWWWK......NWWo.
+   .x000KKKKKKKKKKKXXXXX0.               .lNNWWWWN:dXOdxkONd0lcKWWWWO.....,WWWl.
+   .k000KKKKKKKKKKKKXXXX0               ..:xxxkOk::kokdk0kcl0d:x0WWWd.....:WWWd.
+    k000KKKKKKKKKKKKXXXXO             .oONNWWWNNNc;WNkdkx0oKkccx.;kko:;'..:WWWk.
+   .O000KKKKKKKKKKKKXXXXO            lXNNX0XNOl0O0.0WWWWWWodxOKN.dWWWWWWWKooNWd.
+   .0KKKKKKKKKKKKKKKXXXXx           :NNdlxOc,.KOdN'cWWWWWWKx0WW0,XWWWWWWMMMklWl.
+   .O000KKKKKKKKKKKKKXXXd           oNNxxOO0.;.dNWo.WWWWWW0;KWX,XWWWXWWWWWWW;0c.
+   .kO0000KKKKKKKKKKKXXXx          ,XNNNNNNoclOcNWK.0WWWWWo'WW'oWWW0,,:WWWWWoc:.
+   .kO00000KKKKKKKKKKXXXO         'XNNNNNNX0; ..NWW,oWWWNo.:XX.OWWWl..;WWWWW:;'.
+   .k000000KKKKKKKKKXXXXk        .KNNNNNNNNX.  kWWWd.NWNl:;Oxo,dxOKx..oWWWWWcc..
+    k000000KKKKKKKKKKXXXd       .0NNNNNNNNNl. .kWWWX.xX;cN.XWWWWWXKOl..xWWWWc:..
+   .k00000KKKKKKKKKK0kdl,.... . lOOO00KXNNk   .ONNWWd..lWN.NWWWWWWWWW0;.KWWW;...
+   .k00000KKKOxoccccl:xkx0Xk,.. ccccc:,'.'.    .KWWW0;kWWX.KWWWWWWWWWWW:,WWN,...
+   .O000Oo:;:;dkKxkKK0xK0dX0l...XNNNNNNK0Od'   .oOOxdkdkNN'dWWWWWWWWWWWx.0WN....
+   .Okc:;lOK0xcolc':ll:c;l;;,.. KKx:,..                dWWo.kWWWWWWWWWWN.0W0  ..
+   .;;o00l::;;',oO0KK00Kdx;O:lx...:ldkO0XK,       ..... .;c..cXWNKOkOkkx.co:o. .
+    ;0o''l;lxxoxOkOKOx0KOdoodkKc '0NNNNNNNN0d;. ..........   ..,dOOKXKOxxk0NK.  
+    'l;.00ddllokkOkOKoldOOxxoOXXc .:ldOXNNNNNNXd.       ..    cKN0xxkO0XWWXWk.  
+   ..,l::k0KKl:ccddxXocxxOkoOXXXx      .'ckXNWWWNx.         .,WXWNNXKOOOOKXN;   
+   ,O:':l;,;xoo';lkKKkkooc'.';;'            'lONWWKc.  .... .lWK000XNWWWWWNd    
+   ;000kl;'..;d00KKKkc'..   '....',...         .lKWWWKd,.... cWNNNXXOkOXWNd..   
+   ;00000KK0kl.'kKx,':;''::';llll:lxk;..      .   'dNNWNO... 'WNXkkKWWWWWO.X.   
+   ,0000KKKKKKO.,'.;,;cx0XK0XXXXXXXOo:;,cl;.. ..'....;oKKNk; .WNNNXNKk0NX.xW.   
+   ,00000KKKK0c ...'lkxxXXXXXXXXXXNNNNNNXK0xo:,'';;;'...oWWK. KNNK00KWWW:;WW.   
+   '00000K0k:.....ckdckXXXXXXXXXXXNNNNNNNNKOOO0Od:l,'.  lWWO' lNWXWWWWWl.XWW.   
+   .0000Od,..'. .odxOKXXXXXXXXXXXXNNNNNNNNNXKX000doOdc' 'KW,  cXKkxdkNc ;WWW.   
+   '0ko,.':l:'..okOKKKKKXXXXXXXXXNNNNNNNNNNNNNXOdxldo::..ko   lNWWWWWo  lWWX    
+   .'..:oodlc',kkOKKKKKXXXXXXXXXXXNNNNNNNNNNNNN0x:clcc:..;ll  odO0KXx.  oWWk    
+  ..'.'clol:';kk0KKKKKKXXXXXXXXXXXNNNNNNNNNNXK0Oxx;;'... .;. ;0XWXo.    xWWd    
+:ld..,,;ccl;,xkOO0KKKKKKXXXXXXXXXNNNNNNNNXOo;..             .c,.;.      OWWo    
+o,. ;dl;lx:,xkOkokKKKKKKXXXXXXXXXXNNNNNNNNNNNNO:.                       XWWc    
+ ..dOOxxkc'dOOkx0KKKKKKKXXXXXXXXXXNNNNNNNNNNNNNX0dc;.                  .WWWc    
+  ,OOk.;c.:kkxdOKKKKKKKKKKXXXXXXXXXXXXXNNNNNNXKOd:.  .,:.              'WWWc    
+   oOc.c;xOkdo:kKKKKKKKKKKXXXXXXXXKKXXNNNNNKOxc. .;d0XOl.   .          ,WWW:    
+   .;'';.;kolldlkKKKKKKKKKXXXXXK00KKXNNNNNOdl;.'kNNN0oc....lc          ;WWW,    
+     ..':kOo:,''c0KKKKKKKKXXKOxk0XXNNNNNXxo:..oNNNNKxk..ooxNX'         :WWW'    
+      'cc:. ..;. :k0KOdk0dxkodkOKkxKK00Xlc:':KNNNXXXKo ,O0NWWk.        :WWW.    
+        '..:,;..  .;:l:doc;::kOxxodK000l:o'lkXNNXNNXK, cKNNWK0O'       cWWW.    
+        kkdl,       ,ldc;;coOOxxolckdxc;:'lk000XKNN00. :XNNXKNWNl.     cWWN     
+        .            ,:..cok0xdoooOkxl,;.O0KK0O0dxKOx' 'XNKkXKNXK0.    :WWX     

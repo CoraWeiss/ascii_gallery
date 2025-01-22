@@ -1,0 +1,40 @@
+.l,,x:.l,'lcccccccc::lll:cclo;,,:lxxcoOOOOocxxl:,,;olc::lll::ccccccccl',l.:x,,l.
+::.,xd.',',lllcccclooddo:cclc;,,;col;oOxxOo;loc;,,;clcc:oddoolcccclll,','.dx,.::
+,:.;kx:.';';odollddcccllxokcd;':lclcxx::::xdclcl:';dckoxllcccddllodo;';..:xk;.:,
+.,;,xxd..'loxolxk0000kkcd0dcl;lc;ldlx:l;,l:xldl;cl;lcd0dckk000Okxloxol'..dxx,;,.
+,c:'xxx:.cddoox00KKKKKK0kxxol;c:;',:::'''':::,';:c;loxxk0KKKKKK00xooddc.:xxx':c,
+lo,.xxxd.lxdlo0KKKKK00KKkdlolll,';:;c',;;,'c;:;',olloldkKK00KKKKK0oldxl.dxxx.,ol
+'l'.dxxxc:doodOxxxxKkkx0OOxOOoOc.,;.:;;::;;:.;,.cOoOOxOO0xkkKxxxxOxood:cxxxd.'l'
+c;'.dxddxololOxdlxx0xxoxOO0O0xocl;c'::,,,,::'c;lcox0O0OOxoxxOxxldkOloloxddxd.';c
+''',:lddddld:dxlkKx0OKdokdcdx:c;;c:;ll;,,:ll;:c;;c:xdcdkodKO0xKklxd:dlddddl:,'''
+,,',,',;col.'',k0Odod00kc;'coclo;cl;,lc;;cl,:l:;olcoc';ck00dodO0k,''.loc;,',,',,
+;,,',','',:,''.okklldOOlcl:;;:;clclc:;:cc:;:clclc;:;;:lclOOdllkko.'',:,'',',',,;
+,,,''',',,,;;;;oOO00Okxlkc;;;;:::;c:::occo:::c;c:c;;;;lklxkOO0OOo;;;;,,,',''',,,
+,,,,,,,;;;,,::ck000000o;;;;ccclllc:c;c;xx;c;c:clllccc;;;;d000000kc::,,;;;',,,,,,
+....''......''o0K0000Ko,''',,coodcokdxolloxdkocdooc,,''',dK000KK0o''......''....
+... .  .....,d00000O0Kx''''......',;,,'..',,;,'......''''kK0O0000Od,.....    .. 
+       .':okO00K0000000c.........'.'''....'''.'.........c0000000000Oko:'.       
+    .,okkkkO00KK00KKK000x;.........'',,,,,,''.........;x000KKK00KK000kkkko,.    
+   ,dkkOOOOKKKKOO0KKK0O000Oxc........','','........cxO000O0KKK0OOKKKKOOOOkkd,   
+  cddxOkO0O0K00KKKKK00OOOOO0Odocccc:;;:::;;;:ccccodO0OOOOO00KKKKK00K0O0OkOxdd:  
+ :oolloxOOOOOKKKKKK00OOO0OO0xddddxkkxkxkkxkxkkxddddx0OO0OOO00KKKKKKOOOOOxolloo: 
+ ;oolloxOOOO0KKKKKK00OOO0OO0xddddxkkxkxkkxkxkkxddddx0OO0OOO00KKKKKK0OOOOxolloo; 
+  :ddxOkO0O0K00KKKKK00OOOOO0Odoccc::;;;::;;;::cccodO0OOOOO00KKKKK00K0O0OkOxdd:  
+   'dkkOOOOKKKKOO0KKK0O000Od:........','','........:dO000O0KKK0OOKKK0OOOOkkd'   
+    .,lkkkO000KK00KKK000x;.........',,,,,,,''.........;x000KKK00KK000kkkkl,.    
+       ..;lkO0000000000:...........'''....'''...........c0000000000Okl;..       
+... .. .....,dO0K00OKKx''''.....'',;,,'..',,;,''.....''''xK0O00K0Od,..... .. ...
+....''......''o0KK000Ko,''',,cdoxcdkdxolloxdkocxodc,,''',dK000KK0o''......''....
+,,,,,,,;;;;,::ck000000d;:;;cc:lllc::;c;xx;c;c:cllc:cc;;:;d000000kc::,;;;;,,,,,,,
+,,,''',',,,;;;;oOO0OOkxlkc;;;;::c;c:::occo::;c;c::;;;;lklxkOO0OOl;;;;,,,',''',,,
+;,,',','',:,''.dkklloOOl:l:;;:;clcl::;:cc:;:clclc;:;;:l:lOOollkkd.'',:,'',',',,;
+,,',,',;col''',O0Odox00kc;'coclo;cl:,oc;;co,:l:;olcoc';ck00xoxO0O,'''loc;,',,',,
+''',:lddddod:dxckKx0OKdokdldx:c;;c:;ll;,,:ll;:c;;c:xdldkodKO0xKkcxd:doddddl:,'''
+c;'.dxddxololOkdlxd0xxlxOO0k0xocl;c';c,,,,:;'c;lcox0k0OOxlxxOdxldkOloloxddxd.';c
+'l'.dxxxc:doodOkxxxKkkk0OOdOOoOc.,;.:;;::;;:.;,.cOoOOdOO0kkkKxxxkOdood:cxxxd.'l'
+lo,.xxxd.lxdlo0KKKKK00KKkdlollo,',;;c',;;,'c;;,',olloldkKK00KKKKK0oldxl.dxxx.,ol
+,c:'xxx;.cddoox00KKKKKK0kxdol;c:;',:::',,':::,';:c;lodxk0KKKKKK00xooddc.;xxx':c,
+.,;,xxd..'loxolxxO000kxcd0dcl;lc;ldlx:l;;l:xldl;cl;lcx0dcxk000Oxxloxol'..dxx,;,.
+,:.;kx:.';.;odollddcccllxokcd;':lclcdx::::xdclcl:';dckoxllcccddllodo;';'.:xk;.:,
+::.,xd.,,',lllcccclodddo:cclc;,,;coo;oOxxOo;ooc;,,;clcc:odddolcccclll,',,.dx,.::
+.l,,x:.l,'lcccccccc::lll:cclo;',:lxxloOOOOolxxl:,';olcc:lll::ccccccccl',l.:x,,l.

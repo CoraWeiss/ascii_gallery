@@ -1,0 +1,40 @@
+dxxxxxc              .odddddddd'              ,ddxxxxxxxxxxo.             .cxxxx
+xxxxxl.               .cdddddo'                ;dxxxxxxxxxd.               .:xxx
+xxxxd'                 .odddd,                 .oxxxxxxxxxc                 .lxx
+xxxxd,                 .ododd,                 .oxxxxxxxxxl                  lxd
+xxxxxo.  '.,ldl:.      .xdoox;       ;loo;'.. .cxxxxxxxxxxx,  ..':doc.      .dxd
+xxxxxxd'.xKXlc;:x.     :dddddl.     oc;::KXk;.lxxxxxxxxxxxxx:.o0Nxc::d;     'xdd
+xxxxxxxxd,,Oc::lxK.    '.....'.    OOl:;:0:'lxxxxxxxxxxxxxxxxx:'dx;:loKl    .'..
+xxxxxxxxxok0x0kdOK.    ..   ..     O0ox0x0Oddxxxxxxxxxxxxxxxxxox0kOOxxXl    ..  
+dxxxxxxxxc.;o:o0K:                 .0Kxccl.,dxxxxxxxxxxxxxxxxxd..o:lOXx         
+xxxxxxxdxc   ;kd.                    lOc.  ,ddxxxxkxxxxxkxxxddd.  .dO,          
+xxxkxxxddl                                 ;ddxxkkkxxxxkkkxxxdd.         .      
+xxkkkxxxo.                                  cxxxkkkxxxxkkkkxxd'                 
+xxkkkkxd.                                    lxkkkkkxxxkkkkkx,                  
+xxkkkkx,                                     .dkkkkkxxxkkkkkc                   
+xxkkkkxd.                                    lxkkkkkxxxkkkkkx;                  
+xxkkkxxxo.                                  cxxxkkkkxxxkkkkxxd,                 
+xxxkxxxddl                                 ;ddxxkkkxxxxkkkxxxdd.         .      
+xxxxxxxdx:  .;Ox.                    o0c.  'ddxxxxkxxxxxkxxxddd.  .xO;          
+xxxxxxxxxc.:oco0Kc                 'K0dcco.,dxxxxxxxxxxxxxxxxxd.'dclOKk         
+xxxxxxxxdok0x0xdkK.    ..    .     O0ox0k0Oodxxxxxxxxxxxxxxxxxod0OOOxdKl    ..  
+xxxxxxxdo,,0c;;lx0.    ''....'.    kOl;,;0c'ldxxxxxxxxxxxxxxxd:'dx,;coKl    '''.
+xxxxxxd..kXXoc::d.     :dooodl.     ll:cc0XO;.lxxxxxxxxxxxxx; oKXxc::d,     'xdd
+xxxxxo.  ..'col;       .dooox;       ,col,... .cxxxxxxxxxxx,  ..';olc.      .dxd
+xxxxd,                 .ododd'                 .oxxxxxxxxxc                  lxd
+xxxxd'                 .odddd;                 .oxxxxxxxxxc                 .oxx
+xxxxxl.               .cddoddo'                ;dxxxxxxxxxd'               .:xxx
+xxxxxxc              .oddoodddd'              ,xxxxxxxxxxxxd.             .cxxxx
+xxxxxl.               .cddoddo'                ;dxxxxxxxxxd.               .:xxx
+xxxxd'                 .odddd,                 .oxxxxxxxxxc                 .lxx
+xxxxd,                 .ododd'                 .oxxxxxxxxxl                  lxd
+xxxxxo.  ..,cdl:       .xdoox;       ;loo,... .cxxxxxxxxxxx,  ..':doc.      .dxd
+xxxxxxd..kKXlc::d.     :dddddl.     ol::cKXO;.lxxxxxxxxxxxxd; o0Nxc::d;     'xdd
+xxxxxxxxd,,Oc;:lxK.    '.....'.    OOl:;:0c'ldxxxxxxxxxxxxxxxd:'dx;:loKl    ''..
+xxxxxxxxxok0x0xdOK.    ..   ..     O0ox0x0Oddxxxxxxxxxxxxxxxxxox0OOOxxKl    ..  
+dxxxxxxxxc.:oco0K:                 .0Kxcco.,dxxxxxxxxdxxxxxxdxd.'o:lOKx         
+xxxxxxxddc   ,kx.                    lOc.  'dddxxxxxxxxxxxxxddd.  .dO,          
+xxxxxxxddl                                 ;ddxxxxxxxxxxkxxxddd.         .      
+xxkxxxxxo.                                  cdxxxxxxxxxxkxxxxd'                 
+xxkkkkxo.                                    lxxkxxxxxxxxkkxd,                  
+xxxkkkx'                                     .oxxxxxxdxxxkkxc                   
