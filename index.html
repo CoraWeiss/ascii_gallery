@@ -1,45 +1,71 @@
-]cat > index.html << 'EOF'
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>ASCII Gallery</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christmas Freud ASCII Gallery</title>
     <style>
-        body { 
-            background: #1a1a1a; 
-            color: #33ff33; 
-            font-family: monospace;
-            margin: 0;
+        body {
+            background-color: #1a1a1a;
+            color: #33ff33;
+            font-family: 'Courier New', Courier, monospace;
             padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
         }
         h1 {
             text-align: center;
-            color: white;
+            color: #ffffff;
+            margin-bottom: 40px;
         }
-        pre { 
-            background: #000; 
-            padding: 20px; 
-            margin: 20px;
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .ascii-container {
+            background: #000;
+            padding: 15px;
             border-radius: 8px;
-            overflow-x: auto;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.5);
         }
-        .title {
-            color: white;
+        .ascii-title {
+            color: #fff;
             text-align: center;
-            margin: 10px 0;
+            margin-bottom: 10px;
+            font-size: 0.9em;
+        }
+        .ascii-frame {
+            white-space: pre;
+            overflow-x: auto;
+            padding: 10px;
+            border: 1px solid #333;
+            background: #0a0a0a;
+            font-size: 8px;
+            line-height: 1;
+        }
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+            .ascii-frame {
+                font-size: 6px;
+            }
         }
     </style>
 </head>
 <body>
-    <h1>ASCII Art Gallery</h1>
-EOF
-
-# Add each ASCII art file
-for f in *.txt; do
-    echo "<h2 class='title'>$(basename "$f" _ascii.txt)</h2>" >> index.html
-    echo "<pre>" >> index.html
-    cat "$f" >> index.html
-    echo "</pre>" >> index.html
-done
-
-# Close the HTML file
-echo "</body></html>" >> index.html
+    <h1>Christmas Freud ASCII Gallery</h1>
+    <div class="gallery">
+        <div class="ascii-container">
+            <div class="ascii-title">2025-01-19_22-07-39_UTC</div>
+            <pre class="ascii-frame"><!-- First ASCII art content --></pre>
+        </div>
+        <div class="ascii-container">
+            <div class="ascii-title">2025-01-20_18-45-15_UTC</div>
+            <pre class="ascii-frame"><!-- Second ASCII art content --></pre>
+        </div>
+    </div>
+</body>
+</html>
