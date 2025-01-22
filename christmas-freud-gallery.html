@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christmas Freud ASCII Gallery</title>
+    <style>
+        body {
+            background-color: #1a1a1a;
+            color: #33ff33;
+            font-family: 'Courier New', Courier, monospace;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        h1 {
+            text-align: center;
+            color: #ffffff;
+            margin-bottom: 40px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .ascii-container {
+            background: #000;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+        }
+        .ascii-title {
+            color: #fff;
+            text-align: center;
+            margin-bottom: 10px;
+            font-size: 0.9em;
+        }
+        .ascii-frame {
+            white-space: pre;
+            overflow-x: auto;
+            padding: 10px;
+            border: 1px solid #333;
+            background: #0a0a0a;
+            font-size: 8px;
+            line-height: 1;
+        }
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+            .ascii-frame {
+                font-size: 6px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Christmas Freud ASCII Gallery</h1>
+    <div class="gallery">
+        <div class="ascii-container">
+            <div class="ascii-title">2025-01-19_22-07-39_UTC</div>
+            <pre class="ascii-frame">
+   _/\\_
+  /     \\
+ /_/--\_\\
+/         \\
+            </pre>
+        </div>
+        <div class="ascii-container">
+            <div class="ascii-title">2025-01-20_18-45-15_UTC</div>
+            <pre class="ascii-frame">
+   ,--.
+  (    )
+ .-.\  )
+(  (__)'
+ '--``
+            </pre>
+        </div>
+    </div>
+</body>
+</html>
