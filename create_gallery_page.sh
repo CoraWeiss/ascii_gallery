@@ -1,167 +1,84 @@
 #!/bin/bash
 
-# Get today's date format
-TODAY="01-23"
+# [previous style section remains the same]
 
-echo '<!DOCTYPE html>
-<html>
-<head>
-    <title>ASCII Art Gallery</title>
-    <style>
-        body {
-            background-color: #000000;
-            color: #00ff00;
-            font-family: "Courier New", monospace;
-            padding: 20px;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-        .gallery {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 20px;
-            padding: 20px;
-        }
-        .ascii-container {
-            background: #0a0a0a;
-            padding: 15px;
-            border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0,255,0,0.1);
-            border: 1px solid #00ff00;
-            text-decoration: none;
-            display: block;
-        }
-        .ascii-container:hover {
-            border-color: #00ff99;
-            box-shadow: 0 2px 10px rgba(0,255,0,0.2);
-        }
-        .timestamp {
-            color: #00cc00;
-            text-align: center;
-            margin-bottom: 10px;
-        }
-        pre {
-            white-space: pre;
-            overflow-x: auto;
-            margin: 0;
-            padding: 10px;
-            background: #000000;
-            color: #00ff00;
-            border: 1px solid #004400;
-            font-size: 8px;
-            line-height: 1;
-        }
-        h1, h2 {
-            color: #00ff00;
-            text-align: center;
-            text-shadow: 0 0 5px #00ff00;
-        }
-        .fullscreen {
-            display: none;
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: #000000;
-            z-index: 1000;
-            padding: 40px;
-            overflow: auto;
-        }
-        .fullscreen pre {
-            font-size: 16px;
-            line-height: 1.2;
-            padding: 20px;
-            transform: scale(1.5);
-            transform-origin: top center;
-            margin: 40px auto;
-            max-width: 1000px;
-        }
-        .fullscreen:target {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        .close-button {
-            position: fixed;
-            top: 20px;
-            right: 20px;
-            color: #00ff00;
-            text-decoration: none;
-            font-size: 24px;
-            border: 1px solid #00ff00;
-            padding: 5px 10px;
-            border-radius: 5px;
-        }
-        .close-button:hover {
-            background: #004400;
-        }
-        .fullscreen-content {
-            width: 100%;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-    </style>
-</head>
-<body>
-    <h1>ASCII Art Gallery</h1>
-    <h2>On This Day - January 23</h2>
-    <div class="gallery">' > index.html
+# Function to format date
+format_date() {
+    local timestamp=$1
+    # Extract year, month, day from timestamp
+    local year=$(echo $timestamp | cut -d'-' -f1)
+    local month=$(echo $timestamp | cut -d'-' -f2)
+    local day=$(echo $timestamp | cut -d'-' -f3)
+    
+    # Convert month number to name
+    case $month in
+        01) month="January" ;;
+        02) month="February" ;;
+        03) month="March" ;;
+        04) month="April" ;;
+        05) month="May" ;;
+        06) month="June" ;;
+        07) month="July" ;;
+        08) month="August" ;;
+        09) month="September" ;;
+        10) month="October" ;;
+        11) month="November" ;;
+        12) month="December" ;;
+    esac
+    
+    echo "$month $day, $year"
+}
 
-# First add the January 23 images
+[rest of the header remains the same]
+
+# For the "On This Day" section
 for file in $(ls -1 *"$TODAY"*_ascii.txt 2>/dev/null); do
     if [ -f "$file" ]; then
         timestamp=$(echo "$file" | sed 's/_UTC_ascii.txt//' | sed 's/_/-/g')
         id=$(echo "$timestamp" | sed 's/[^0-9a-zA-Z]/-/g')
+        display_date=$
+./create_gallery_page.sh
+git add create_gallery_page.sh index.html
+git commit -m "Updated date format to be more readable"
+git push
+cat > create_gallery_page.sh << 'ENDSCRIPT'
+#!/bin/bash
+
+[previous styles remain the same]
+
+echo '<!DOCTYPE html>
+<html>
+<head>
+    <title>ASCII Art Gallery for @ChristmasFreud</title>
+    <style>
+        [previous styles remain the same]
         
-        echo "    <a href='#${id}' class='ascii-container'>
-        <div class='timestamp'>$timestamp</div>
-        <pre>" >> index.html
-        cat "$file" | sed 's/&/\&amp;/g; s/</\&lt;/g; s/>/\&gt;/g' >> index.html
-        echo "</pre>
-    </a>" >> index.html
-
-        echo "    <div class='fullscreen' id='${id}'>
-        <a href='#' class='close-button'>×</a>
-        <div class='fullscreen-content'>
-            <pre>" >> index.html
-        cat "$file" | sed 's/&/\&amp;/g; s/</\&lt;/g; s/>/\&gt;/g' >> index.html
-        echo "</pre>
-        </div>
-    </div>" >> index.html
-    fi
-done
-
-# Add section for all images
-echo '    </div>
-    <h2>All Images</h2>
-    <div class="gallery">' >> index.html
-
-# Then add all images in reverse chronological order
-for file in $(ls -r *_ascii.txt); do
-    if [ -f "$file" ]; then
-        timestamp=$(echo "$file" | sed 's/_UTC_ascii.txt//' | sed 's/_/-/g')
-        id=$(echo "$timestamp" | sed 's/[^0-9a-zA-Z]/-/g')
+        .site-title {
+            color: #00ff00;
+            text-align: center;
+            text-shadow: 0 0 5px #00ff00;
+            margin-bottom: 10px;
+        }
         
-        echo "    <a href='#${id}' class='ascii-container'>
-        <div class='timestamp'>$timestamp</div>
-        <pre>" >> index.html
-        cat "$file" | sed 's/&/\&amp;/g; s/</\&lt;/g; s/>/\&gt;/g' >> index.html
-        echo "</pre>
-    </a>" >> index.html
+        .subtitle {
+            color: #00cc00;
+            text-align: center;
+            font-size: 1.2em;
+            margin-bottom: 40px;
+        }
 
-        echo "    <div class='fullscreen' id='${id}'>
-        <a href='#' class='close-button'>×</a>
-        <div class='fullscreen-content'>
-            <pre>" >> index.html
-        cat "$file" | sed 's/&/\&amp;/g; s/</\&lt;/g; s/>/\&gt;/g' >> index.html
-        echo "</pre>
-        </div>
-    </div>" >> index.html
-    fi
-done
+        .twitter-link {
+            color: #00ff00;
+            text-decoration: none;
+        }
 
-echo "    </div>
-</body>
-</html>" >> index.html
+        .twitter-link:hover {
+            text-shadow: 0 0 8px #00ff00;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="site-title">ASCII Art Gallery</h1>
+    <div class="subtitle">for <a href="https://twitter.com/ChristmasFreud" class="twitter-link" target="_blank">@ChristmasFreud</a></div>
 
+[rest of script remains the same]
