@@ -1,13 +1,15 @@
 #!/bin/bash
 
-# Get today's month and day
-TODAY_MONTH_DAY=$(date +%m-%d)
+# Find the most recent date that has ASCII art
+MOST_RECENT=$(ls -t *_ascii.txt | head -n 1 | grep -o "[0-9]\{4\}-[0-9]\{2\}-[0-9]\{2\}")
+RECENT_MONTH_DAY=$(echo $MOST_RECENT | cut -d'-' -f2,3)
 
 echo '<!DOCTYPE html>
 <html>
 <head>
     <title>ASCII Art Gallery</title>
     <style>
+        /* Previous styles remain the same */
         body {
             background-color: #000000;
             color: #00ff00;
@@ -23,7 +25,7 @@ echo '<!DOCTYPE html>
             padding-bottom: 10px;
             border-bottom: 1px solid #00ff00;
         }
-        .on-this-day {
+        .recent-day {
             margin-bottom: 40px;
         }
         .gallery {
@@ -61,10 +63,16 @@ echo '<!DOCTYPE html>
             font-size: 8px;
             line-height: 1;
         }
-        h1 {
+        h1, h2 {
             color: #00ff00;
             text-align: center;
             text-shadow: 0 0 5px #00ff00;
+        }
+        .date-header {
+            color: #00cc00;
+            text-align: center;
+            font-size: 1.2em;
+            margin-bottom: 20px;
         }
         .fullscreen {
             display: none;
@@ -116,21 +124,20 @@ echo '<!DOCTYPE html>
 <body>
     <h1>ASCII Art Gallery</h1>' > index.html
 
-# Start "On This Day" section
-echo '    <h2 class="section-title">On This Day</h2>
-    <div class="gallery on-this-day">' >> index.html
+# Start "Most Recent Day" section
+echo "    <h2 class='section-title'>Most Recent Day</h2>
+    <div class='date-header'>$MOST_RECENT</div>
+    <div class='gallery recent-day'>" >> index.html
 
-# Process files for "On This Day" section
+# Process files for the most recent day
 for file in *_ascii.txt; do
     if [ -f "$file" ]; then
-        # Extract month and day from filename
         FILE_MONTH_DAY=$(echo "$file" | grep -o "[0-9]\{2\}-[0-9]\{2\}" | head -n 1)
         
-        if [ "$FILE_MONTH_DAY" = "$TODAY_MONTH_DAY" ]; then
+        if [ "$FILE_MONTH_DAY" = "$RECENT_MONTH_DAY" ]; then
             timestamp=$(echo "$file" | sed 's/_UTC_ascii.txt//' | sed 's/_/-/g')
             id=$(echo "$timestamp" | sed 's/[^0-9a-zA-Z]/-/g')
             
-            # Add gallery item
             echo "    <a href='#${id}' class='ascii-container'>
             <div class='timestamp'>$timestamp</div>
             <pre>" >> index.html
@@ -138,7 +145,6 @@ for file in *_ascii.txt; do
             echo "</pre>
             </a>" >> index.html
 
-            # Add fullscreen version
             echo "    <div class='fullscreen' id='${id}'>
             <a href='#' class='close-button'>×</a>
             <div class='fullscreen-content'>
@@ -151,18 +157,17 @@ for file in *_ascii.txt; do
     fi
 done
 
-# End "On This Day" section and start main gallery
+# End "Most Recent Day" section and start main gallery
 echo '    </div>
     <h2 class="section-title">All Images</h2>
     <div class="gallery">' >> index.html
 
-# Process all files in reverse chronological order
+# Rest of the script remains the same...
 for file in $(ls -r *_ascii.txt); do
     if [ -f "$file" ]; then
         timestamp=$(echo "$file" | sed 's/_UTC_ascii.txt//' | sed 's/_/-/g')
         id=$(echo "$timestamp" | sed 's/[^0-9a-zA-Z]/-/g')
         
-        # Add gallery item
         echo "    <a href='#${id}' class='ascii-container'>
         <div class='timestamp'>$timestamp</div>
         <pre>" >> index.html
@@ -170,7 +175,6 @@ for file in $(ls -r *_ascii.txt); do
         echo "</pre>
     </a>" >> index.html
 
-        # Add fullscreen version
         echo "    <div class='fullscreen' id='${id}'>
         <a href='#' class='close-button'>×</a>
         <div class='fullscreen-content'>
