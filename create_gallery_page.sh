@@ -104,8 +104,8 @@ echo '<!DOCTYPE html>
     <h1>ASCII Art Gallery</h1>
     <div class="gallery">' > index.html
 
-# Process each ASCII file
-for file in *_ascii.txt; do
+# Process files in reverse chronological order
+for file in $(ls -r *_ascii.txt); do
     if [ -f "$file" ]; then
         timestamp=$(echo "$file" | sed 's/_UTC_ascii.txt//' | sed 's/_/-/g')
         id=$(echo "$timestamp" | sed 's/[^0-9a-zA-Z]/-/g')
