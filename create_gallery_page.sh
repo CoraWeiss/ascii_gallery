@@ -1,15 +1,7 @@
 #!/bin/bash
 
-# Get today's month and day
-TODAY_MONTH_DAY=$(date +%m-%d)
-
-# Find files from this month and day
-today_files=$(ls -1 *_ascii.txt | grep "$(date +%m-%d)" || true)
-
-# If no files found today, find the most recent one
-if [ -z "$today_files" ]; then
-    today_files=$(ls -1 *_ascii.txt | head -n 1)
-fi
+# Get today's date format
+TODAY="01-23"
 
 echo '<!DOCTYPE html>
 <html>
@@ -23,13 +15,6 @@ echo '<!DOCTYPE html>
             padding: 20px;
             max-width: 1200px;
             margin: 0 auto;
-        }
-        .section-title {
-            color: #00ff00;
-            text-align: center;
-            margin: 40px 0 20px 0;
-            padding-bottom: 10px;
-            border-bottom: 1px solid #00ff00;
         }
         .gallery {
             display: grid;
@@ -66,7 +51,7 @@ echo '<!DOCTYPE html>
             font-size: 8px;
             line-height: 1;
         }
-        h1 {
+        h1, h2 {
             color: #00ff00;
             text-align: center;
             text-shadow: 0 0 5px #00ff00;
@@ -119,27 +104,23 @@ echo '<!DOCTYPE html>
     </style>
 </head>
 <body>
-    <h1>ASCII Art Gallery</h1>' > index.html
+    <h1>ASCII Art Gallery</h1>
+    <h2>On This Day - January 23</h2>
+    <div class="gallery">' > index.html
 
-# Start "On This Day" section
-echo "    <h2 class='section-title'>On This Day (${TODAY_MONTH_DAY})</h2>
-    <div class='gallery on-this-day'>" >> index.html
-
-# Process files for "On This Day" section
-echo "$today_files" | while read -r file; do
+# First add the January 23 images
+for file in $(ls -1 *"$TODAY"*_ascii.txt 2>/dev/null); do
     if [ -f "$file" ]; then
         timestamp=$(echo "$file" | sed 's/_UTC_ascii.txt//' | sed 's/_/-/g')
         id=$(echo "$timestamp" | sed 's/[^0-9a-zA-Z]/-/g')
         
-        # Add gallery item
         echo "    <a href='#${id}' class='ascii-container'>
         <div class='timestamp'>$timestamp</div>
         <pre>" >> index.html
         cat "$file" | sed 's/&/\&amp;/g; s/</\&lt;/g; s/>/\&gt;/g' >> index.html
         echo "</pre>
-        </a>" >> index.html
+    </a>" >> index.html
 
-        # Add fullscreen version
         echo "    <div class='fullscreen' id='${id}'>
         <a href='#' class='close-button'>×</a>
         <div class='fullscreen-content'>
@@ -151,12 +132,12 @@ echo "$today_files" | while read -r file; do
     fi
 done
 
-# End "On This Day" section and start main gallery
+# Add section for all images
 echo '    </div>
-    <h2 class="section-title">All Images</h2>
+    <h2>All Images</h2>
     <div class="gallery">' >> index.html
 
-# Process all files in reverse chronological order
+# Then add all images in reverse chronological order
 for file in $(ls -r *_ascii.txt); do
     if [ -f "$file" ]; then
         timestamp=$(echo "$file" | sed 's/_UTC_ascii.txt//' | sed 's/_/-/g')
@@ -184,4 +165,3 @@ echo "    </div>
 </body>
 </html>" >> index.html
 
-echo "Gallery created as index.html"
