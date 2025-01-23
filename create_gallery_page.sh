@@ -62,14 +62,22 @@ echo '<!DOCTYPE html>
             bottom: 0;
             background: #000000;
             z-index: 1000;
-            padding: 20px;
+            padding: 40px;
             overflow: auto;
         }
         .fullscreen pre {
-            font-size: 14px;
+            font-size: 16px;
+            line-height: 1.2;
+            padding: 20px;
+            transform: scale(1.5);
+            transform-origin: top center;
+            margin: 40px auto;
+            max-width: 1000px;
         }
         .fullscreen:target {
-            display: block;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
         .close-button {
             position: fixed;
@@ -84,6 +92,11 @@ echo '<!DOCTYPE html>
         }
         .close-button:hover {
             background: #004400;
+        }
+        .fullscreen-content {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
         }
     </style>
 </head>
@@ -108,9 +121,11 @@ for file in *_ascii.txt; do
         # Add fullscreen version
         echo "    <div class='fullscreen' id='${id}'>
         <a href='#' class='close-button'>×</a>
-        <pre>" >> index.html
+        <div class='fullscreen-content'>
+            <pre>" >> index.html
         cat "$file" | sed 's/&/\&amp;/g; s/</\&lt;/g; s/>/\&gt;/g' >> index.html
         echo "</pre>
+        </div>
     </div>" >> index.html
     fi
 done
