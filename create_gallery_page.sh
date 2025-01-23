@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Get today's month and day
+TODAY_MONTH_DAY=$(date +%m-%d)
+
 echo '<!DOCTYPE html>
 <html>
 <head>
@@ -12,6 +15,16 @@ echo '<!DOCTYPE html>
             padding: 20px;
             max-width: 1200px;
             margin: 0 auto;
+        }
+        .section-title {
+            color: #00ff00;
+            text-align: center;
+            margin: 40px 0 20px 0;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #00ff00;
+        }
+        .on-this-day {
+            margin-bottom: 40px;
         }
         .gallery {
             display: grid;
@@ -101,10 +114,49 @@ echo '<!DOCTYPE html>
     </style>
 </head>
 <body>
-    <h1>ASCII Art Gallery</h1>
-    <div class="gallery">' > index.html
+    <h1>ASCII Art Gallery</h1>' > index.html
 
-# Process files in reverse chronological order
+# Start "On This Day" section
+echo '    <h2 class="section-title">On This Day</h2>
+    <div class="gallery on-this-day">' >> index.html
+
+# Process files for "On This Day" section
+for file in *_ascii.txt; do
+    if [ -f "$file" ]; then
+        # Extract month and day from filename
+        FILE_MONTH_DAY=$(echo "$file" | grep -o "[0-9]\{2\}-[0-9]\{2\}" | head -n 1)
+        
+        if [ "$FILE_MONTH_DAY" = "$TODAY_MONTH_DAY" ]; then
+            timestamp=$(echo "$file" | sed 's/_UTC_ascii.txt//' | sed 's/_/-/g')
+            id=$(echo "$timestamp" | sed 's/[^0-9a-zA-Z]/-/g')
+            
+            # Add gallery item
+            echo "    <a href='#${id}' class='ascii-container'>
+            <div class='timestamp'>$timestamp</div>
+            <pre>" >> index.html
+            cat "$file" | sed 's/&/\&amp;/g; s/</\&lt;/g; s/>/\&gt;/g' >> index.html
+            echo "</pre>
+            </a>" >> index.html
+
+            # Add fullscreen version
+            echo "    <div class='fullscreen' id='${id}'>
+            <a href='#' class='close-button'>×</a>
+            <div class='fullscreen-content'>
+                <pre>" >> index.html
+            cat "$file" | sed 's/&/\&amp;/g; s/</\&lt;/g; s/>/\&gt;/g' >> index.html
+            echo "</pre>
+            </div>
+        </div>" >> index.html
+        fi
+    fi
+done
+
+# End "On This Day" section and start main gallery
+echo '    </div>
+    <h2 class="section-title">All Images</h2>
+    <div class="gallery">' >> index.html
+
+# Process all files in reverse chronological order
 for file in $(ls -r *_ascii.txt); do
     if [ -f "$file" ]; then
         timestamp=$(echo "$file" | sed 's/_UTC_ascii.txt//' | sed 's/_/-/g')
